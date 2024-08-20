@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSR Motors - Lead Management</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>Manage Lead</h1>
+    </header>
+    <main>
+        <section class="lead-management-form">
+            <h2>Lead Information</h2>
+            <form>
+                <label for="status">Status:</label>
+                <select id="status" name="status">
+                    <option value="new">New</option>
+                    <option value="contacted">Contacted</option>
+                    <option value="not-interested">Not Interested</option>
+                    <option value="qualified">Qualified</option>
+                </select>
+                <label for="assigned-to">Assigned To:</label>
+                <input type="text" id="assigned-to" name="assigned-to" value="Jane Smith">
+                <button type="submit">Save Changes</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
